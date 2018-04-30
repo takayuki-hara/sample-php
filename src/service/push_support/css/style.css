@@ -1,0 +1,292 @@
+/*************
+/* ページ全体の設定（サービスによって色を分ける）
+*************/
+.bodymain {
+    background: #ffffff;
+    margin: 0;
+}
+
+.bodyserviceA {
+    background: #ee738d;
+    margin: 0;
+}
+
+.bodyserviceB {
+    background: #555555;
+    margin: 0;
+}
+
+/*************
+/* コンテンツ
+*************/
+.content {
+    background: #ffffff;
+    padding: 5px 20px;
+    text-align: left;
+    border: 1px solid #cccccc;
+    margin: 30px 30px;
+}
+
+.caution {
+    color: red;
+    font-size: 150%;
+}
+
+.resultsuccess {
+    color: darkblue;
+    font-size: 150%;
+}
+
+/*************
+/* サブミットボタン
+*************/
+.submit_btn_next{
+    padding: 20px;
+    border: 0px;
+    width:200px;
+    height:40px;
+    background: url(../img/next.gif) left top no-repeat;
+}
+ 
+.submit_btn_next:hover{
+    cursor: pointer;
+    opacity:0.8;
+}
+
+.submit_btn_regist{
+    padding: 20px;
+    border: 0px;
+    width:200px;
+    height:40px;
+    background: url(../img/regist.gif) left top no-repeat;
+}
+ 
+.submit_btn_regist:hover{
+    cursor: pointer;
+    opacity:0.8;
+}
+
+.submit_btn_save{
+    padding: 20px;
+    border: 0px;
+    width:200px;
+    height:40px;
+    background: url(../img/save.gif) left top no-repeat;
+}
+ 
+.submit_btn_save:hover{
+    cursor: pointer;
+    opacity:0.8;
+}
+
+.submit_btn_delete{
+    padding: 20px;
+    border: 0px;
+    width:200px;
+    height:40px;
+    background: url(../img/delete.gif) left top no-repeat;
+}
+ 
+.submit_btn_delete:hover{
+    cursor: pointer;
+    opacity:0.8;
+}
+
+/*----------------------------------------------------------
+（参考）http://www.netmania.jp/templates/title_css.php
+------------------------------------------------------------*/
+
+/*************
+/* タイトル
+*************/
+.title01 {
+    margin: 10px;
+    padding:3px 5px;
+    border-color:#0B0099;
+    border-width:0 0 1px 7px;
+    border-style:solid;
+    background:#F8F8F8;
+}
+
+.title02 {
+    padding:4px 5px;
+    border-color:#0220B6;
+    border-width:1px 0 2px 0;
+    border-style:solid;
+    background:#E3F0FD;
+}
+
+.tapetitle {
+	position:relative;
+	margin:0 -1px;
+	font:bold 30px/1.6 Arial, Helvetica, sans-serif;
+	text-align:center;
+	color:#333;
+	background:#f0e800;
+	-webkit-transform: rotate(-3deg) skew(-3deg);
+	-moz-transform: rotate(-3deg) skew(-3deg);
+	-o-transform: rotate(-3deg) skew(-3deg);
+	-ms-transform: rotate(-3deg) skew(-3deg);
+	transform: rotate(-3deg) skew(-3deg);
+	text-shadow:1px 1px 0 rgba(255,255,255,1);
+	box-shadow:	0 1px 2px 0 rgba(0,0,0,0.2),
+				30px 0 0 0 #f0e800,
+				-30px 0 0 0 #f0e800;
+}
+
+/*----------------------------------------------------------
+（参考）http://webworkersclip.com/2875/
+------------------------------------------------------------*/
+
+/*************
+/* テーブル1（シンプルで見やすい表）
+*************/
+table.type01 {
+	border-collapse: collapse;
+	text-align: left;
+	line-height: 1.5;
+
+}
+table.type01 thead th {
+	padding: 10px;
+	font-weight: bold;
+	vertical-align: top;
+	color: #369;
+	border-bottom: 3px solid #036;
+}
+table.type01 tbody th {
+	width: 50px;
+	padding: 10px;
+	font-weight: bold;
+	vertical-align: top;
+	border-bottom: 1px solid #ccc;
+	background: #f3f6f7;
+}
+table.type01 td {
+	width: 350px;
+	padding: 10px;
+	vertical-align: top;
+	border-bottom: 1px solid #ccc;
+}
+
+/*************
+/* テーブル2（交互に背景色）
+*************/
+table.type02 {
+	border-collapse: collapse;
+	text-align: left;
+	line-height: 1.5;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+table.type02 th {
+	padding: 10px;
+	font-weight: bold;
+	vertical-align: top;
+}
+table.type02 td {
+	padding: 10px;
+	vertical-align: top;
+}
+table.type02 .even {
+	background: #efefef;
+}
+
+/*************
+/* テーブル3（左カラムがヘッダー）
+*************/
+table.type03 {
+	border-collapse: collapse;
+	text-align: left;
+	line-height: 1.5;
+	border-top: 1px solid #ccc;
+	border-left: 3px solid #369;
+}
+table.type03 th {
+	width: 147px;
+	padding: 10px;
+	font-weight: bold;
+	vertical-align: top;
+	color: #153d73;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+
+}
+table.type03 td {
+	width: 349px;
+	padding: 10px;
+	vertical-align: top;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+
+/*----------------------------------------------------------
+（参考）http://f-tpl.com/
+------------------------------------------------------------*/
+
+/*************
+/* ヘッダー
+*************/
+#header{
+    overflow:hidden;
+    background:#3f4360;
+    border-bottom:1px solid #292d48;
+}
+
+* html #header{height:1%;}
+
+#header h1{
+    float:left;
+    font-size:18px;
+    font-weight:normal;
+    padding:0px 10px;
+    color:#fff;
+}
+
+/**************************
+/* トップナビゲーション
+**************************/
+ul#topnav{
+    float:right;
+    overflow:hidden;
+}
+
+* html ul#topnav{height:1%;}
+
+ul#topnav li{
+    float:left;
+    margin:0 5px;
+    text-align:center;
+}
+
+ul#topnav a{
+    font-size:13px;
+    display:block;
+    padding:0px 10px;
+    color:#fff;
+}
+
+ul#topnav span{
+    color:#cdcdcd;
+    font-size:10px;
+}
+
+ul#topnav li.active a,ul#topnav a:hover{
+    background:#292d48;
+    border-radius:5px;
+}
+
+/*************
+/* フッター
+*************/
+#footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 10px;
+    padding:20px 0;
+    background:#3f4360;
+    border-top:1px solid #292d48;*/
+}
+
+* html #footer{height:1%;}
